@@ -2,9 +2,9 @@ const PORT = process.env.PORT;
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => {
-  res.end("Hello World");
-});
+app.set("view engine", "ejs");
+
+app.use("/", require("./routes/index"));
 
 app.listen(PORT, () => {
   console.log(`Application listeng at http://localhost:${PORT}`);
