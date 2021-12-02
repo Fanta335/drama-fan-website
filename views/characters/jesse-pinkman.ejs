@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <%- include('../_share/metadata.ejs') %>
+    <title>Jesse Pinkman - Drama Fan Website</title>
+    <%- include('../_share/stylesheets.ejs') %>
+    <link rel="stylesheet" href="/public/stylesheets/character.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <%- include('../_share/navbar.ejs') %>
+      <div class="text-center bg-warning py-3 mb-5">
+        <h1>Characters</h1>
+        <h6>キャラクター</h6>
+      </div>
+      <div class="container">
+        <div class="character-container row pb-3">
+          <div class="col mr-2">
+            <img class="character-image" src="/public/images/characters/c03.png" alt="walter-white" />
+          </div>
+          <div class="col pt-3">
+            <h3>Jesse Pinkman</h3>
+            <h6>ジェシー・ピンクマン</h6>
+            <p>
+              主人公ウォルターの元教え子。下っ端のドラッグ・ディーラー/製造者だったが、ウォルターに弱みを握られ、仕方なく共にドラッグを製造することになる。自身もジャンキー。家庭に余り恵まれなかったせいか、小さな子供を大切に想う気持ちが強い。口も態度も悪く強がっているが実は繊細で優しい性格。「ビッチ」が口癖。
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3>Cast</h3>
+          <h5>Aaron Paul</h5>
+          <h5>関連リンク</h5>
+          <a href="http://www.imdb.com/name/nm0666739/"><p>Aaron Paul | IMDb</p></a>
+        </div>
+      </div>
+      <%- include('../_share/footer.ejs') %>
+    </div>
+    <%- include('../_share/javascripts.ejs') %>
+  </body>
+</html>

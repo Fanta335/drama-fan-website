@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <%- include('../_share/metadata.ejs') %>
+    <title>Skyler White - Drama Fan Website</title>
+    <%- include('../_share/stylesheets.ejs') %>
+    <link rel="stylesheet" href="/public/stylesheets/character.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <%- include('../_share/navbar.ejs') %>
+      <div class="text-center bg-warning py-3 mb-5">
+        <h1>Characters</h1>
+        <h6>キャラクター</h6>
+      </div>
+      <div class="container">
+        <div class="character-container row pb-3">
+          <div class="col mr-2">
+            <img class="character-image" src="/public/images/characters/c02.png" alt="walter-white" />
+          </div>
+          <div class="col pt-3">
+            <h3>Skyler White</h3>
+            <h6>スカイラー・ホワイト</h6>
+            <p>
+              主人公ウォルターの妻。妹のマリーとはとても仲がよく、その夫ハンクも含め家族ぐるみの付き合いをしている。第二子を妊娠（シーズン1、2）、出産。当初は、愛情ゆえにウォルターや息子に対して口やかましく、やや威圧的な態度をとっていたが、ウォルターが変わるにつれて彼女も変貌していく。
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3>Cast</h3>
+          <h5>Anna Gunn</h5>
+          <h5>関連リンク</h5>
+          <a href="http://www.imdb.com/name/nm0348152/"><p>Anna Gunn | IMDb</p></a>
+        </div>
+      </div>
+      <%- include('../_share/footer.ejs') %>
+    </div>
+    <%- include('../_share/javascripts.ejs') %>
+  </body>
+</html>
