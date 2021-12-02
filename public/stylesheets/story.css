@@ -1,0 +1,22 @@
+.story-top-desc {
+  max-width: 50em;
+}
+
+.season-container {
+  max-width: 50em;
+  border-bottom: solid #ccc;
+  margin-bottom: 3em;
+}
+
+.face-icon {
+  width: 5em;
+}
+
+.season-image {
+  width: 20em;
+  margin-bottom: 2em;
+  background-color: #fff;
+  background-image:
+    radial-gradient(#ddd 30%, transparent 30%);
+  background-size: 0.2em 0.2em;
+}
