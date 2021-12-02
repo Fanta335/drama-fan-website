@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <%- include('./_share/metadata.ejs') %>
+    <title>Characters - Drama Fan Website</title>
+    <%- include('./_share/stylesheets.ejs') %>
+    <link rel="stylesheet" href="/public/stylesheets/all_characters.css" />
+  </head>
+  <body>
+    <%- include('./_share/navbar.ejs') %>
+    <div class="text-center bg-warning py-3 mb-5">
+      <h1>Characters</h1>
+      <h6>キャラクター</h6>
+    </div>
+    <div class="container">
+      <div class="characters-top-desc text-center">
+        <p>ブレイキング・バッドの個性的なキャラクターの面々を紹介。</p>
+      </div>
+      <div class="my-5 d-flex justify-content-center">
+        <img class="face-icon" src="/public/images/face_icon.png" alt="face_icon" />
+      </div>
+      <div class="container">
+        <div class="character-container d-flex flex-wrap justify-content-around">
+          <div class="col-md-6 col-sm-12 p-3">
+            <img class="character-image" src="/public/images/characters/c01.png" alt="walter-white" />
+            <p class="text-center">Walter White</p>
+          </div>
+          <div class="col-md-6 col-sm-12 p-3">
+            <img class="character-image" src="/public/images/characters/c02.png" alt="skyler-white" />
+            <p class="text-center">Skyler White</p>
+          </div>
+          <div class="col-md-6 col-sm-12 p-3">
+            <img class="character-image" src="/public/images/characters/c03.png" alt="jesse-pinkman" />
+            <p class="text-center">Jesse Pinkman</p>
+          </div>
+          <div class="col-md-6 col-sm-12 p-3">
+            <img class="character-image" src="/public/images/characters/c04.png" alt="hank-schrader" />
+            <p class="text-center">Hank Schrader</p>
+          </div>
+          <div class="col-md-6 col-sm-12 p-3">
+            <img class="character-image" src="/public/images/characters/c05.png" alt="marie-schrader" />
+            <p class="text-center">Marie Schrader</p>
+          </div>
+          <div class="col-md-6 col-sm-12 p-3">
+            <img class="character-image" src="/public/images/characters/c06.png" alt="walter-white-jr" />
+            <p class="text-center">Walter White, Jr.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./_share/footer.ejs') %> <%- include('./_share/javascripts.ejs') %>
+  </body>
+</html>

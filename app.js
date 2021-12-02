@@ -12,6 +12,7 @@ app.use(favicon(path.join(__dirname, "/public/favicon.ico")));
 app.use("/public", express.static(path.join(__dirname, "/public")));
 
 // Dynamic resource routing
+app.use("/characters", require("./routes/characters"));
 app.use("/story", require("./routes/story"));
 app.use("/", require("./routes/index"));
 
