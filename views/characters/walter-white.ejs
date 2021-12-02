@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <%- include('../_share/metadata.ejs') %>
+    <title>Characters - Drama Fan Website</title>
+    <%- include('../_share/stylesheets.ejs') %>
+    <link rel="stylesheet" href="/public/stylesheets/character.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <%- include('../_share/navbar.ejs') %>
+      <div class="text-center bg-warning py-3 mb-5">
+        <h1>Characters</h1>
+        <h6>キャラクター</h6>
+      </div>
+      <div class="container">
+        <div class="character-container row pb-3">
+          <div class="col mr-2">
+            <img class="character-image" src="/public/images/characters/c01.png" alt="walter-white" />
+          </div>
+          <div class="col pt-3">
+            <h3>Walter White</h3>
+            <h6>ウォルター・ホワイト</h6>
+            <p>
+              本編の主人公。真面目だけが取り柄の化学教師だったが、50歳の誕生日の翌日肺ガンが見つかり、家族に金を残すためドラッグ製造の道へと入る。
+              当初の温厚で気弱な人柄から、殺人も厭わない悪人へと変貌していく。
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3>Cast</h3>
+          <h5>Bryan Cranston</h5>
+          <p>
+            俳優・声優・演出家・監督。「ブレイキング・バッド」以外の代表先はTVシリーズ「マルコム・イン・ザ・ミドル」、映画「トータル・リコール（2013年版）」「ゴジラ」など多数。父・兄も俳優。
+          </p>
+          <h5>関連リンク</h5>
+          <a href="http://www.imdb.com/name/nm0186505/"><p>Bryan Cranston | IMDb</p></a>
+          <a href="https://twitter.com/bryancranston"><p>@BryanCranston | Twitter</p></a>
+        </div>
+      </div>
+      <%- include('../_share/footer.ejs') %>
+    </div>
+    <%- include('../_share/javascripts.ejs') %>
+  </body>
+</html>
